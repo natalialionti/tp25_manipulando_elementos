@@ -18,16 +18,16 @@ listado.style.color = "#FFFF"
 let respuesta = confirm("¿Querés cambiar el color de fondo?");
 if(respuesta) {
     qs("body").classList.add("fondo")
-}
+};
 
-parrafos.forEach((parrafo,index) => {
-    if(index%2===0){
-        parrafo.classList.add("destacadoPar")
+for(let i=0, i < parrafos.length, i++) {
+    if(i%2===0){
+        parrafo[i].classList.add("destacadoPar")
     }else{
-        parrafo.classList.add("destacadoImpar")
+        parrafo[i].classList.add("destacadoImpar")
     }
 
-});
+};
 
 
 
