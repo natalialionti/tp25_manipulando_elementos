@@ -20,7 +20,7 @@ if(respuesta) {
     qs("body").classList.add("fondo")
 };
 
-for(let i=0, i < parrafos.length, i++) {
+for(let i=0; i < parrafos.length; i++) {
     if(i%2===0){
         parrafo[i].classList.add("destacadoPar")
     }else{
